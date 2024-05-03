@@ -1,0 +1,245 @@
+.redes{
+
+    margin-top: 0px;
+    text-align: right;
+    
+}
+
+.socialButton{
+
+    border: none;
+    background: none;
+    transition: transform 250ms;
+
+}
+
+.instagram, .youtube, .indexBack, .video{
+
+    color: white;
+    font-size: 40px;
+
+}
+
+
+
+.instagram:hover{
+
+    transition: color 0.25s;
+    color: rgb(255, 0, 170);
+
+}
+
+.youtube:hover{
+
+    transition: color 0.25s;
+    color: rgb(255, 0, 0);
+
+}
+
+.indexBack:hover, .video:hover{
+
+    transition: color 0.25s;
+    color: #5869C5;
+
+}
+
+.imgGameSection{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+.imgGame{
+
+    width:  100%;
+    height: 100%;
+    object-fit: scale-down;
+
+}
+
+.imgRound{
+
+    border-radius: 20%;
+    overflow: hidden;
+
+}
+
+.containerSections{
+
+    width: 100%;
+    background: none;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.bar{
+
+    width: 90%;
+    position: relative;
+    background: #c55858;
+    color: #fff;
+    border-radius: 20px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    z-index: 1;
+    }
+
+.bar:hover{
+
+    background-color: rgb(139, 0, 0);
+
+}
+
+.symbol{
+
+    position: relative;
+
+}
+
+#plus1, #plus2, #plus3, #plus4, #plus5, #plus6{
+
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background:#e09797;
+    color: #000;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+    border-radius: 50%;
+}
+
+#minus1, #minus2, #minus3, #minus4, #minus5, #minus6{
+
+    display: none;
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background:#e09797;
+    color: #000;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+    border-radius: 50%;
+}
+
+.data{
+    font-weight: 100;
+    display: none;
+    width: 90%;
+    background:#724141;
+    color: #fff;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    transition: 0.3s ease;
+    top: -45px;
+    height: 0px;
+    
+}
+
+.data.show{
+
+    display: block;
+    padding-top: 40px;
+    top: -25px;
+    height: auto;
+
+}
+
+input{
+
+    -webkit-appearance: none;
+    display: none;
+
+}
+
+#checkJugabilidad:checked ~ .containerSections .bar #plus1,
+#checkGraficos:checked ~ .containerSections .bar #plus2,
+#checkHistoria:checked ~ .containerSections .bar #plus3,
+#checkCaracteristicas:checked ~ .containerSections .bar #plus4,
+#checkMusica:checked ~ .containerSections .bar #plus5,
+#checkResumen:checked ~ .containerSections .bar #plus6{
+
+    display: none;
+
+}
+
+#checkJugabilidad:checked ~ .containerSections .bar #minus1,
+#checkGraficos:checked ~ .containerSections .bar #minus2,
+#checkHistoria:checked ~ .containerSections .bar #minus3,
+#checkCaracteristicas:checked ~ .containerSections .bar #minus4,
+#checkMusica:checked ~ .containerSections .bar #minus5,
+#checkResumen:checked ~ .containerSections .bar #minus6{
+
+    display: block;
+
+}
+
+
+
+
+
+body{
+    color: white;
+    font-family: "Inter", sans-serif;
+    background: rgb(10,15,38);
+    background: linear-gradient(0deg, rgb(38, 10, 10) 20%, rgb(225, 113, 113) 100%);
+
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+article{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+
+}
+
+h1{
+
+    font-weight: 300;
+    text-align: center;
+    font-size: xxx-large;
+
+}
+
+h3{
+
+    font-weight: 100;
+    text-align: center;
+
+}

@@ -1,9 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60642245a2.js" crossorigin="anonymous"></script>
     <title>SONIC GENESIS</title>
+
+
+    
 
     <link rel="icon" href=
         "img/SonicLogo.png"
@@ -11,12 +20,29 @@
 
 </head>
 
-<body style="background-color:#b0b1f1;">
+<body>
 
     <header>
 
-        <img src="img/s1.png" alt="SonicHeader" width="60px"/>
-        <p>Hecho por Mat^</p>
+        <a href="./pages/credits.html" style="float: left;">
+            Hecho por Mat^
+        </a>
+
+        <div class="redes">
+
+            <button class="socialButton">
+                <a href="https://www.instagram.com/mqt_ig/" target="_blank">
+                    <i class="fa-brands fa-instagram instagram"></i>
+                </a> 
+            </button>
+
+            <button class="socialButton">
+                <a href="https://www.youtube.com/@MatZxZx" target="_blank">
+                    <i class="fa-brands fa-youtube youtube"></i>
+                </a> 
+            </button>
+
+        </div>
 
     </header>
 
@@ -24,7 +50,7 @@
 
         <!-- TITULO -->
 
-        <div style="text-align: center; text-shadow: 0px 10px 25px rgb(0, 0, 0); font-size: large;">
+        <div class="title">
             
             <section>
 
@@ -41,8 +67,7 @@
         <div style="text-align: center; font-size: large">
 
             <article>
-                
-                <h2>¿Como fue?</h2>
+    
                 <p> La era Genesis de sonic fue la primera aparición de este famoso personaje en el mundo del videojuego.<br> En esta pagina se va a detallar cada juego que se fue lanzando y reseñarlos. </p>
 
             </article>
@@ -53,41 +78,75 @@
     
     <!-- HIPERVINCULOS A OTRAS PAGINAS -->
 
-    <h3>// LISTA DE JUEGOS // </h3>
+    <h3 style="text-align: center; margin-bottom: 30px;">// LISTA DE JUEGOS // </h3>
+
 
         <nav class="listaJuegos">
-            <ul>
-            <li><a href="./pages/S1.html">Sonic The Hedgehog</a></li>
-            <li><a href="./pages/S2.html">Sonic The Hedgehog 2</a></li>
-            <li><a href="./pages/SCD.html">Sonic The Hedgehog CD</a></li>
-            <li><a href="./pages/S3.html">Sonic The Hedgehog 3</a></li>
-            <li><a href="./pages/SNK.html">Sonic & Knuckles</a></li>
-            <li><a href="./pages/S3DB.html">Sonic 3D Blast</a></li>
-            </ul>
+            
+                <button class="sonicGamesButton">
+                    <a href="./pages/S1/S1.html">
+                        <img src="img/covers/Sonic_the_Hedgehog_cover.jpg" width="178px" class="imgCover"/>
+                    </a> 
+                </button>
+
+                <button class="sonicGamesButton">
+                    <a href="./pages/S2/S2.html">
+                        <img src="img/covers/Sonic_the_Hedgehog_2_cover.png" width="178px" class="imgCover"/>
+                    </a> 
+                </button>
+
+                <button class="sonicGamesButton">
+                    <a href="./pages/SCD/SCD.html">
+                        <img src="img/covers/Sonic_the_Hedgehog_CD_cover.jpg" width="155px" class="imgCover"/>
+                    </a> 
+                </button>
+
+                <button class="sonicGamesButton">
+                    <a href="./pages/S3/S3.html">
+                        <img src="img/covers/Sonic_the_Hedhehog_3_cover.png" width="176px" class="imgCover"/>
+                    </a> 
+                </button>
+
+                <button class="sonicGamesButton">
+                    <a href="./pages/SNK/SNK.html">
+                        <img src="img/covers/Sonic_&_Knuckles_cover.jpg" width="176px" class="imgCover"/>
+                    </a> 
+                </button>
+
+                <button class="sonicGamesButton">
+                    <a href="./pages/S3DB/S3DB.html">
+                        <img src="img/covers/Sonic_3D_Blast_cover.png" width="176px" class="imgCover"/>
+                    </a> 
+                </button>
+
         </nav>
 
     <!-- FOOTER -->
 
     <footer>
 
-        <div style="text-align: right;">
-
-            <h4>Playlist de videos originales y redes:</h4>
+        <div>
 
                 <nav class="redes">
                     <ul>
-                    <a href="https://youtube.com/playlist?list=PLJtmK8vryw1Xi24TnCRzi126ByTrGFa5N&si=hBBwS8opNKL-KX9d" target="_blank" >Playlist</a>
-                    <a href="https://www.youtube.com/@MatZxZx" target="_blank">Mi canal de Youtube</a>
-                    <a href="https://www.instagram.com/mqt_ig/" target="_blank">Instagram</a>
+
+                        <button class="socialButton">
+                            <a href="https://youtube.com/playlist?list=PLJtmK8vryw1Xi24TnCRzi126ByTrGFa5N&si=hBBwS8opNKL-KX9d" target="_blank">
+                                <i class="fa-solid fa-display playlist"></i>
+                            </a> 
+                        </button>
                     </ul>
+                    <div class="foot">
+
+                        &copy; 2024 Mat^
+                        <h3>//PLAYLIST DE SUS RESPECTIVOS VIDEOS//</h3>
+                        
+                    </div>
+
                 </nav>
 
-
         </div>
-
-        <p> Gracias por ver! </p>
-        &copy; 2024 Mat^
-
+        
     </footer>
     
 </body>
